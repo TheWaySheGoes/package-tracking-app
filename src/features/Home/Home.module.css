@@ -1,0 +1,74 @@
+@media screen and (min-width: 700px) {
+  table {
+    width: 95%;
+    font-size: x-small;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  table {
+    width: 95%;
+    font-size: xx-small;
+  }
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+thead:nth-child(even),
+td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+
+.table_row:hover {
+  background-color: lightcoral;
+}
+
+td:hover {
+  background-color: lightgreen;
+}
+
+.grid_main {
+  grid-area: main;
+  text-align: center;
+
+}
+
+.grid_geolocation {
+  grid-area: geolocation;
+  
+}
+
+.grid_geolocation > * {
+  min-width: 300px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parcel_input {
+  padding: 15px;
+  border-radius: 10px;
+  border-color: lightblue;
+  border-style: solid;
+  
+}
+.parcel_input:active, .parcel_input:focus {
+  outline: none;
+  
+}
