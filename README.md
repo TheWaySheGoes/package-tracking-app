@@ -4,7 +4,7 @@ User can search for a parcel and get addition info on the map.
 
 ## data page
 
-![plot](mobile.PNG)
+![plot](mobile.jpg)
 
 # Getting Started with Create React App
 
