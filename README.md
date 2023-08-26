@@ -1,3 +1,11 @@
+# Package-Tracker
+This is a simple implementation of the Node.js/React with CSS Grid Layout. App connects to Api for data and then displays the tracking location on the map.
+User can search for a parcel and get addition info on the map.
+
+## data page
+
+![plot](mobile.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
