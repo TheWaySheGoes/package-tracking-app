@@ -18,7 +18,7 @@ const GeoLocation = ({ latitude, longitude, data }) => {
     }, [info]);
 
     const customIcon = new L.Icon({
-        iconUrl: 'package-icon.png', //in public fodler
+        iconUrl: 'package-icon.png', //in public folder
         iconSize: [32, 32],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32],
